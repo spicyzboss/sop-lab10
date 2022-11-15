@@ -1,4 +1,4 @@
-package com.example.lab09.command;
+package com.example.lab10.command;
 
 import lombok.Builder;
 import lombok.Data;

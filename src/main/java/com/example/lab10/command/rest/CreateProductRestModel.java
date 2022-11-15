@@ -1,12 +1,11 @@
-package com.example.lab09.event;
+package com.example.lab10.command.rest;
 
 import lombok.Data;
 
 import java.math.BigDecimal;
 
 @Data
-public class ProductCreatedEvent {
-    private String productId;
+public class CreateProductRestModel {
     private String title;
     private BigDecimal price;
     private Integer quantity;

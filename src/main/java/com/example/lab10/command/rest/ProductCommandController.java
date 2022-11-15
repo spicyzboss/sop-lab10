@@ -1,6 +1,6 @@
-package com.example.lab09.rest;
+package com.example.lab10.command.rest;
 
-import com.example.lab09.command.CreateProductCommand;
+import com.example.lab10.command.CreateProductCommand;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +9,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/products")
-public class ProductController {
+public class ProductCommandController {
     @Autowired
     private CommandGateway commandGateway;
 
